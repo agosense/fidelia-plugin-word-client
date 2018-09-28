@@ -1,7 +1,7 @@
 {
   "name": "com.agosense.fidelia.plugin.word.client",
   "description": "agosense.fidelia plugin word client",
-  "version": "1.8.14",
+  "version": "1.8.13",
   "license": "GPL-3.0-or-later",
   "repository": {
     "type": "git",
