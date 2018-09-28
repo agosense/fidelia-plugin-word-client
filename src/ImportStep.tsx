@@ -44,7 +44,6 @@ export class ImportStep extends React.Component<IImportStepProps, IImportStepSta
 
         this.props.restClient.post(
             this.props.fideliaUrl + "/api/rest/v1/tasks", {
-                allowedFolders: [this.props.folderId],
                 description:
                     "<p>File size: " + this.props.fileSize +
                     "</p><p>Paragraph count: " + this.props.paragraphCount +
